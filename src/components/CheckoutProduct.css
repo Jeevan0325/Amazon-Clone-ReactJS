@@ -35,10 +35,12 @@
 }
 
 .checkoutProduct_rating{
+    display: flex;
     margin-top: 5px;
 }
 
 .checkoutProduct_price{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: -20px;
+    margin-bottom: -15px;
 }
