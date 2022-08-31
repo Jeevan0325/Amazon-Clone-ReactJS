@@ -6,27 +6,23 @@ function Home() {
     return (
         <div className="home">
             <div className="home-container">
-                <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" className="home-image" />
+                <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg"  alt ="" className="home-image" />
 
                 <div className="home-row">
                     <Product 
                         id = {122322}
-                        title="A Game of Thrones (Song of Ice and Fire) Hardcover – August 1, 1996" 
-                        price = {26.29}
-                        image="https://kbimages1-a.akamaihd.net/a26bb671-977c-4324-a6af-486847cdbe32/1200/1200/False/a-game-of-thrones-a-song-of-ice-and-fire-book-1.jpg"
+                        title="Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling office Bag,Water repeilent Fabric for Men and Women(Blue)"
+                        price={11.98}
                         rating={5}
-                        author="by George R.R. Martin"
-                        subtitle="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
-
+                        image="https://m.media-amazon.com/images/I/51S-b58EREL._SL500_.jpg"
+                        
                     />
                     <Product 
                         id = {122323}
-
-                        title="Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver" 
-                        price = {364.99}
-                        image="https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SL1500_.jpg"
+                        title="IFB 30 L Convection Microwave Oven (30BRC2 Black With Starter Kit)"
+                        price={239}
                         rating={4}
-                        author="by Acer"
+                        image="https://m.media-amazon.com/images/I/81D8pNFmWzL._SX679_.jpg"
 
                     />
                 </div>
@@ -34,45 +30,39 @@ function Home() {
                 <div className="home-row">
                 <Product 
                         id = {122325}
-                        title="SAMSUNG 75-inch Class QLED Q70T Series - 4K UHD Dual LED Quantum HDR Smart TV with Alexa Built-in (QN75Q70TAFXZA, 2020 Model)" 
-                        price = {100.29}
-                        image="https://images-na.ssl-images-amazon.com/images/I/51d1lfcMIaL._AC_SL1000_.jpg"
-                        rating={4}
-                        author="by Samsung"
+                        title="All The Light We cannot See The Breathtaking World wide Bestseller Paperback"
+                        price={199.99}
+                        rating={3}
+                        image="https://rukminim1.flixcart.com/image/416/416/l4zxn680/regionalbooks/8/t/w/all-the-light-we-cannot-see-english-paperback-anthony-doerr-original-imagfrzeu9uysv4w.jpeg?q=70"
+                        
                         
                 />
                 <Product 
                         id = {122326}
-                        title="OtterBox Defender Series Case for iPad Pro 11(1st Gen) - Retail Packaging - Black" 
-                        price = {11.99}
-                        image="https://images-na.ssl-images-amazon.com/images/I/51o%2ByhvbK-L._AC_SL1000_.jpg"
+                        title="Amazon Echo (3rd generation) Smart Speaker With Alexa Charcoal Fabric"
+                        price={98.99}
                         rating={5}
-                        author="by OtterBox Store"
-                        subtitle="At vero eos et accusamus et iusto odio dignissimos ducimus"
-
+                        image="https://cdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/assets/f/8/f/a/f8fa2e7011354b94d48ccf6ad73d24082928171e_1.jpg"
+                        
                     />
                 <Product 
                         id = {122321}
-                        title="Samsung Gear S3 Frontier Smartwatch (Bluetooth), SM-R760NDAAXAR" 
-                        price = {9.99}
-                        image="https://images-na.ssl-images-amazon.com/images/I/61GcJ2DDvIL._AC_SL1000_.jpg"
-                        rating={3}
-                        author="by Samsung Electronics Store"
-                        subtitle="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis"
-
+                        title="New Apple Ipad Pro (12.96-inch,Wi-Fi,128gb) - Silver (4th Generation)"
+                        price={598.99}
+                        rating={4}
+                        image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-ipad-pro-12-wifi-silver-2020?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1626721066000"
+                        
                     />
                 </div>
 
                 <div className="home-row">
                     <Product 
                         id = {122327}
-                        title="LG 65UN7300PUF Alexa Built-In UHD 73 Series 65 4K Smart UHD TV (2020" 
-                        price = {300.99}
-                        image="https://images-na.ssl-images-amazon.com/images/I/81ZcNYPYthL._AC_SL1500_.jpg"
-                        rating={5}
-                        author="by LG Store"
-                        subtitle="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis"
-
+                        title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual QHD 5120 x 1440"
+                        price={1094.98}
+                        rating={4}
+                        image="https://m.media-amazon.com/images/I/81rus0UFhsL._AC_SL400_.jpg"
+                        
                     />
                 </div>
             </div>
