@@ -1,7 +1,7 @@
 // import { CenterFocusStrongOutlined } from "@material-ui/icons";s
 import React from "react";
 import "./Product.css";
-import StarIcon from "@material-ui/icons/Star";
+//import StarIcon from "@material-ui/icons/Star";
 import { useStateValue } from "../StateProvider";
 
 function Product({id, title, image, price, rating, author, subtitle }) {
@@ -30,17 +30,20 @@ function Product({id, title, image, price, rating, author, subtitle }) {
         <p className="product-subtitle">{subtitle}</p>
         <p className="product-author">{author}</p>
         <div className="product-business">
+            <p className="product_price">
+              <h2>
+                <small>$</small> <strong>{price}</strong>
+                </h2>
+            </p>
           <div className="product-rating">
             {Array(rating)
               .fill()
               .map((_, i) => (
-                <StarIcon className="star-icon" />
+                  <p>⭐️</p>
               ))}
           </div>
 
-          <p className="product_price">
-            <h2>$ {price}</h2>
-          </p>
+          
         </div>
       </div>
 
