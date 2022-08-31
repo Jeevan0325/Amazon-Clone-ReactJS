@@ -15,14 +15,24 @@
 
 
 .header-logo{
-    width: 100px;
-    object-fit: contain;
-    margin: 0 20px;
-    margin-top: 18px;
-    margin-bottom: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
-
-
+.header-logo-container{
+            
+    color: #ff9f00;
+    font-size: 35px !important;
+    margin-right: 10px;
+    margin-left: 25px;
+    
+}
+.header-logo-title{
+    
+    color: white; 
+    margin-right: 10%;
+    margin-right: 20px;
+}
 
 .header-search{
     display: flex;
@@ -43,7 +53,7 @@
 .header-search-icon{
     padding: 5px;
     height: 22px !important;
-    background-color: #cd9042;
+    background-color: #ff9f00;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
 }
@@ -98,5 +108,5 @@
     margin-right: 15px;
     margin-left: 5px;
     font-size: 20px;
-    color: rgb(231, 80, 10);
+    color: white
 }

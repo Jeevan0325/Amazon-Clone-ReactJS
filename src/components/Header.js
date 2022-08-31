@@ -1,7 +1,8 @@
 import React from 'react';
 import './Header.css';
+import StorefrontOutlinedIcon from '@material-ui/icons/StorefrontOutlined';
 import SearchIcon from '@material-ui/icons/Search';
-import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import {Link} from "react-router-dom";
 import { useStateValue } from '../StateProvider';
 
@@ -11,7 +12,11 @@ function Header() {
     return (        
         <div className="header">
             <Link to="/">
-                <img src="./amazon-logo-main.png" className="header-logo" />
+            <div className="header-logo">
+                    <StorefrontOutlinedIcon className="header-logo-container"></StorefrontOutlinedIcon>
+                    <h2 className="header-logo-title">eShop</h2>
+                </div>
+
             </Link>
             
 
@@ -27,15 +32,15 @@ function Header() {
                 </div>
 
                 <div className="header-option">
-                    <span className="header-option-one">Returns</span>
-                    <span className="header-option-two">& Orders</span>
+                    <span className="header-option-one">Your</span>
+                    <span className="header-option-two">Shop</span>
                 </div>
 
             </div>
 
             <Link to="/checkout" className="link">
                 <div className="header-option-basket">
-                    <ShoppingCartOutlinedIcon className="header-basket-icon" />
+                    <ShoppingBasketIcon className="header-basket-icon" />
                     <span className="header-option-two header-basket-count">{basket?.length}</span>
                 </div>
             </Link>
